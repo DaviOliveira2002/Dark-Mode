@@ -5,13 +5,13 @@ function changeMode(){
 
 function changeText(){
     if(body.classList.contains("dark-mode")){
-        modeselector.innerHTML = "Ligth Mode";
-        h1.innerHTML = "Dark Mode" + " ON";
+        modeselector.innerHTML = "Dark Mode";
+        h1.innerHTML = "Ligth Mode" + " ON";
         return;
     }
 
-    modeselector.innerText = "Dark Mode";
-    h1.innerText = "Ligth Mode" + " ON";
+    modeselector.innerText = "Ligth Mode";
+    h1.innerText = "Dark Mode" + " ON";
 }
 
 function changeTheme(){
